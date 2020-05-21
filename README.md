@@ -63,4 +63,4 @@ Let's make a GUI ith tkinter? Contributions accepted.
                   - Windows (Latest chrome version as of 21-5-2020: 83.0.4103.61)
                   - Linux (Latest chrome version as of 21-5-2020: 83.0.4103.61)
 
-**Contact me**: I would love to socialize with you. Find me: https://prasakis.com
+**Find me at**: https://prasakis.com
