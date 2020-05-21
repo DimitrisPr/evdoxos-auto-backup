@@ -6,7 +6,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 options = Options()
-# options.add_argument('--headless')
+options.add_argument('--headless')
 driver = webdriver.Chrome('./chromedriver', options=options) 
 
 USERNAME = 'your_evdoxos_username'
