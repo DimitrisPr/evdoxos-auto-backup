@@ -54,7 +54,7 @@ Let the script running on the background. Everytime it detects a change it autom
 $ python autosave.py
 ```
 <hr/>
-<star-icon fill="orange" /> Star this repo? :)
+⭐ Star this repo? :)
 <hr/>
 
 ## Tutorial
