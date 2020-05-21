@@ -58,7 +58,7 @@ $ python autosave.py
 
 ## How to contribute
 
-Let's make a GUI ith tkinter? Contributions accepted. 
+Let's make a GUI with python's TKinter? Contributions accepted. 
 
 <hr/> 
 
