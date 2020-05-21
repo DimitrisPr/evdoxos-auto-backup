@@ -16,8 +16,6 @@ Table of Contents
 * [How to contribute](#how-to-contribute)  
 
 
-## Tutorial
-
 ## Getting started
 
 Script that monitors Microsoft Word or Open Office files for changes and automatically backs them up on Evdoxos Platform.
@@ -55,6 +53,9 @@ Let the script running on the background. Everytime it detects a change it autom
 ```bash
 $ python autosave.py
 ```
+
+## Tutorial
+(PDF Tutorial)[https://drive.google.com/file/d/1dI16ivvDLG3pEbSZy7r4BZR6JwnyVxGf/view?usp=sharing]
 
 ## How to contribute
 
