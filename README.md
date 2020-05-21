@@ -1,6 +1,6 @@
 
 <img src="https://www.unipi.gr/unipi/images/images/LOGOPAPEI4.png" width="150" align="right">
-
+- ![#f03c15](https://www.unipi.gr/unipi/images/images/LOGOPAPEI4.pn)
 # HTB Cancel Machine Resets Bot
 
 [![built with Selenium](https://img.shields.io/badge/built%20with-Selenium-yellow.svg)](https://github.com/SeleniumHQ/selenium)
