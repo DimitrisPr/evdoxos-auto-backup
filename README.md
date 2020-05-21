@@ -1,5 +1,6 @@
-
-<img src="https://www.unipi.gr/unipi/images/images/LOGOPAPEI4.png" style="background-color:#222c54;" width="150" align="right">
+<span style="background-color:#222c54;">
+ <img src="https://www.unipi.gr/unipi/images/images/LOGOPAPEI4.png" width="150" align="right">
+</span>
 
 # Exam Test Auto-backup for Evdoxos Platform
 
