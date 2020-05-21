@@ -1,6 +1,6 @@
 <img src="https://upload.wikimedia.org/wikipedia/en/7/7e/UNIPI.jpg" width="70" align="right">
 
-# Evdoxos platform auto-backup for exams
+# Evdoxos file auto-uploader for exams
 
 [![built with Selenium](https://img.shields.io/badge/built%20with-Selenium-yellow.svg)](https://github.com/SeleniumHQ/selenium)
 [![built with Python](https://img.shields.io/badge/built%20with-Python-red.svg)](https://www.python.org/)
