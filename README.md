@@ -18,7 +18,7 @@ Table of Contents
 
 ## Getting started
 
-Script that monitors Microsoft Word or Open Office files for changes and automatically backs them up on Evdoxos Platform.
+Script that monitors Word files for changes, and automatically uploads them on Evdoxos (when you save them).
 Let the script running in the background and focus on your exams, distraction free.
 
 ### Requirements:
