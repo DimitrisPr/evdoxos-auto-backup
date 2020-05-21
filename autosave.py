@@ -1,3 +1,18 @@
+import time
+import os.path, time
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
+
+options = Options()
+# options.add_argument('--headless')
+driver = webdriver.Chrome('./chromedriver', options=options) 
+
+USERNAME = 'your_evdoxos_username'
+PASSWORD = 'your_evdoxos_password'
+PROJECT_UPLOAD_DIRECTORY_URL = 'evdoxos_url'
+
 def login():
 
         print("Logging in...")
