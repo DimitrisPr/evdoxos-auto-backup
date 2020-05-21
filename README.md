@@ -31,8 +31,8 @@ Let the script running in the background and focus on your exams, distraction fr
 
   1. Update chrome (IMPORTANT): https://www.google.com/chrome/ 
   2. Check your chrome version 
-   - Ubuntu: `google-chrome --version`
-   - Windows: chrome://settings/help
+   1. Ubuntu: `google-chrome --version`
+   2. Windows: chrome://settings/help
   3. Download Chromedriver for your chrome version & OS: http://chromedriver.chromium.org/downloads
   4. Add Chromedriver to the same directory with the script
   5. Clone this repo: `git clone https://github.com/DimitrisPr/evdoxos-auto-backup.git; cd evdoxos-auto-backup`
