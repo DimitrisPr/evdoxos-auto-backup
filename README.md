@@ -15,6 +15,9 @@ Table of Contents
 * [How to execute](#how-to-execute)  
 * [How to contribute](#how-to-contribute)  
 
+
+## Tutorial
+
 ## Getting started
 
 Script that monitors Microsoft Word or Open Office files for changes and automatically backs them up on Evdoxos Platform.
