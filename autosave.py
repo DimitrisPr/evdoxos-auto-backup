@@ -30,8 +30,13 @@ def login():
         print("Logged in...")
     
 def listen_for_changes():
-    
-    print("Listening for changes")
+
+    print("\n")
+    print("**************************************************************************")
+    print("Listening for changes on doc,docx or odt files in the current directory...")
+    print("**************************************************************************")
+    print("\n")
+
     event_handler = MyHandler()
     observer = Observer()
     observer.schedule(event_handler, path='.', recursive=False)
@@ -51,7 +56,7 @@ def upload_file(modified_file_path):
     submit_button = driver.find_element_by_name('work_submit')
     submit_button.click()
 
-    print("Backup was uploaded succesfully")
+    print("File was uploaded succesfully on Evdoxos...\n")
 
 class MyHandler(FileSystemEventHandler):
 
@@ -62,6 +67,8 @@ class MyHandler(FileSystemEventHandler):
 
         # if file extension is any of $extensions
         if modified_file_path.endswith(extensions):
+            print("Change detected!")
+            print("Uploading file...")
             upload_file(modified_file_path)
         
 if __name__ == "__main__":
