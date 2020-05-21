@@ -55,7 +55,7 @@ $ python autosave.py
 ```
 
 ## Tutorial
-(PDF Tutorial)[https://drive.google.com/file/d/1dI16ivvDLG3pEbSZy7r4BZR6JwnyVxGf/view?usp=sharing]
+[PDF Tutorial](https://drive.google.com/file/d/1dI16ivvDLG3pEbSZy7r4BZR6JwnyVxGf/view?usp=sharing)
 
 ## How to contribute
 
