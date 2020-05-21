@@ -1,18 +1,3 @@
-import time
-import os.path, time
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from watchdog.observers import Observer
-from watchdog.events import FileSystemEventHandler
-
-options = Options()
-# options.add_argument('--headless')
-driver = webdriver.Chrome('./chromedriver', options=options) 
-
-USERNAME = 'your_username_here'
-PASSWORD = 'your_password_here'
-PROJECT_UPLOAD_DIRECTORY_URL = 'the_project_upload_directory_url_here'
-
 def login():
 
         print("Logging in...")
@@ -25,8 +10,6 @@ def login():
         login_form.send_keys(PASSWORD)
         login_form = driver.find_element_by_name('submit')
         login_form.click()
-
-        driver.get('https://evdoxos.ds.unipi.gr/modules/work/?course=DS114')
         print("Logged in...")
     
 def listen_for_changes():
@@ -69,6 +52,7 @@ class MyHandler(FileSystemEventHandler):
         if modified_file_path.endswith(extensions):
             print("Change detected!")
             print("Uploading file...")
+            driver.get(PROJECT_UPLOAD_DIRECTORY_URL)
             upload_file(modified_file_path)
         
 if __name__ == "__main__":
