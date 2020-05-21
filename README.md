@@ -6,10 +6,6 @@
 [![built with Selenium](https://img.shields.io/badge/built%20with-Selenium-yellow.svg)](https://github.com/SeleniumHQ/selenium)
 [![built with Python](https://img.shields.io/badge/built%20with-Python-red.svg)](https://www.python.org/)
 
-Script that monitors for changes in your word file and automatically backs up your work on Evdoxos.
-
-Let the script running in the background and focus on your exams, distraction free.
-
 
 Table of Contents
 =================
@@ -22,8 +18,12 @@ Table of Contents
 
 ## Getting started
 
-### Requirements:
+Script that monitors word or open office files for changes and automatically backs them up on Evdoxos Platform.
+Let the script running in the background and focus on your exams, distraction free.
 
+### Requirements:
+    - Google Chrome
+    - Python 
   
 ### Installation:
 
