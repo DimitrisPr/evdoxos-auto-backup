@@ -26,9 +26,23 @@ def login():
         login_form = driver.find_element_by_name('submit')
         login_form.click()
 
-        driver.get(PROJECT_UPLOAD_DIRECTORY_URL)
+        driver.get('https://evdoxos.ds.unipi.gr/modules/work/?course=DS114')
         print("Logged in...")
-        
+    
+def listen_for_changes():
+    
+    print("Listening for changes")
+    event_handler = MyHandler()
+    observer = Observer()
+    observer.schedule(event_handler, path='.', recursive=False)
+    observer.start()
+
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        observer.stop()
+
 def upload_file(modified_file_path):
 
     upload_button = driver.find_element_by_name('userfile')
@@ -51,17 +65,5 @@ class MyHandler(FileSystemEventHandler):
             upload_file(modified_file_path)
         
 if __name__ == "__main__":
-
-    # Login
     login()
-
-    event_handler = MyHandler()
-    observer = Observer()
-    observer.schedule(event_handler, path='.', recursive=False)
-    observer.start()
-
-    try:
-        while True:
-            time.sleep(1)
-    except KeyboardInterrupt:
-        observer.stop()
+    listen_for_changes()
