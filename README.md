@@ -13,7 +13,7 @@ Table of Contents
 * [Getting Started](#getting-started)
   * [Requirements](#requirements)
   * [Installation](#installation)
-* [How to use](#how-to-use)  
+* [How to execute](#how-to-execute)  
 * [How to contribute](#how-to-contribute)  
 
 ## Getting started
@@ -53,6 +53,10 @@ Let the script running on the background. Everytime it detects a change it autom
 ```bash
 $ python autosave.py
 ```
+
+## How to execute
+
+Let's make a GUI ith tkinter? Contributions accepted. 
 
 **Disclaimer**: This project has been tested on:
                   - Windows (Latest chrome version as of 21-5-2020: 83.0.4103.61)
