@@ -1,4 +1,4 @@
-<img src="http://prasakis.com/github/LOGOPAPEI4.png" width="210" align="right">
+<img src="http://prasakis.com/github/LOGOPAPE I4.png" width="210" align="right">
 
 # Exam Test Auto-backup for Evdoxos Platform
 
