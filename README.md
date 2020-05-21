@@ -62,8 +62,8 @@ Let's make a GUI with python's TKinter? Contributions accepted.
 
 <hr/> 
 
-**Disclaimer**: This project has been tested on:
-                  - Windows (Latest chrome version as of 21-5-2020: 83.0.4103.61)
-                  - Linux (Latest chrome version as of 21-5-2020: 83.0.4103.61)
+This project has been tested on:
+   - Windows (Latest chrome version as of 21-5-2020: 83.0.4103.61)
+   - Linux (Latest chrome version as of 21-5-2020: 83.0.4103.61)
 
 **Find me at**: https://prasakis.com
