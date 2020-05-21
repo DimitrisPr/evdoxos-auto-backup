@@ -1,7 +1,7 @@
 
-<img src="https://www.unipi.gr/unipi/images/images/LOGOPAPEI4.png" width="150" align="right">
-- ![#f03c15](https://www.unipi.gr/unipi/images/images/LOGOPAPEI4.pn)
-# HTB Cancel Machine Resets Bot
+<img src="https://www.unipi.gr/unipi/images/images/LOGOPAPEI4.png" style="background-color:#222c54;" width="150" align="right">
+
+# Exam Test Auto-backup for Evdoxos Platform
 
 [![built with Selenium](https://img.shields.io/badge/built%20with-Selenium-yellow.svg)](https://github.com/SeleniumHQ/selenium)
 [![built with Python](https://img.shields.io/badge/built%20with-Python-red.svg)](https://www.python.org/)
@@ -54,9 +54,11 @@ Let the script running on the background. Everytime it detects a change it autom
 $ python autosave.py
 ```
 
-## How to execute
+## How to contribute
 
 Let's make a GUI ith tkinter? Contributions accepted. 
+
+<hr/> 
 
 **Disclaimer**: This project has been tested on:
                   - Windows (Latest chrome version as of 21-5-2020: 83.0.4103.61)
