@@ -53,6 +53,9 @@ Let the script running on the background. Everytime it detects a change it autom
 ```bash
 $ python autosave.py
 ```
+<hr/>
+Star this repo? :)
+<hr/>
 
 ## Tutorial
 [PDF Tutorial](https://drive.google.com/file/d/1dI16ivvDLG3pEbSZy7r4BZR6JwnyVxGf/view?usp=sharing)
