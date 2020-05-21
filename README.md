@@ -1,6 +1,6 @@
-<img src="http://prasakis.com/github/LOGOPAPEI.png" width="210" align="right">
+<img src="https://upload.wikimedia.org/wikipedia/en/7/7e/UNIPI.jpg" width="210" align="right">
 
-# Exam Test Auto-backup for Evdoxos Platform
+# Auto-backup for Evdoxos Platform for Exams
 
 [![built with Selenium](https://img.shields.io/badge/built%20with-Selenium-yellow.svg)](https://github.com/SeleniumHQ/selenium)
 [![built with Python](https://img.shields.io/badge/built%20with-Python-red.svg)](https://www.python.org/)
