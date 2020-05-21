@@ -49,7 +49,7 @@ Table of Contents
   
 ## How to execute
 
-Let the script running:
+Let the script running on the background. Everytime it detects a change it automatically uploads a new file on Evdoxos.
 ```bash
 $ python autosave.py
 ```
