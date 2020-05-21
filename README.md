@@ -1,4 +1,4 @@
-<img src="https://upload.wikimedia.org/wikipedia/en/7/7e/UNIPI.jpg" width="100" align="right">
+<img src="https://upload.wikimedia.org/wikipedia/en/7/7e/UNIPI.jpg" width="70" align="right">
 
 # Auto-backup for Evdoxos Platform for Exams
 
