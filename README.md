@@ -51,6 +51,8 @@ Let the script running in the background and focus on your exams, distraction fr
   8. Save and exit
   9. Create a new doc, .docx or .odt file at the project's directory. (While the name doesn't matter, the extension does)
   
+For chrome interactive UI uncomment the line `options.add_argument('--headless')`
+
 ## Tutorial
 
 You can find a tutorial with screenshots [here](https://drive.google.com/file/d/1dI16ivvDLG3pEbSZy7r4BZR6JwnyVxGf/view?usp=sharing).
