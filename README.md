@@ -46,7 +46,7 @@ Let the script running in the background and focus on your exams, distraction fr
       PASSWORD = 'your_password_here'
       PROJECT_UPLOAD_DIRECTORY_URL = 'the_project_upload_directory_url_here'
       ```
-  *PROJECT_UPLOAD_DIRECTORY_URL* is the upload directory for your exam document. 
+  *PROJECT_UPLOAD_DIRECTORY_URL* is the Evdoxos upload directory URL for your exam document. 
   
   8. Save and exit
   9. Create a new doc, .docx or .odt file at the project's directory. (While the name doesn't matter, the extension does)
