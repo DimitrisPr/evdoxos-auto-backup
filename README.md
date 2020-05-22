@@ -1,4 +1,3 @@
-<img src="https://external.fath3-4.fna.fbcdn.net/safe_image.php?d=AQCdeWE4HvICuAMi&w=540&h=282&url=https%3A%2F%2Frepository-images.githubusercontent.com%2F265819290%2Fbe577080-9c11-11ea-9356-56c0492ec86f&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_hash=AQChigcTfpNnoyat" width="535">
 <img src="https://upload.wikimedia.org/wikipedia/en/7/7e/UNIPI.jpg" width="70" align="right">
 
 # Evdoxos file auto-uploader for exams
@@ -13,9 +12,8 @@ Table of Contents
 * [Getting Started](#getting-started)
   * [Requirements](#requirements)
   * [Installation](#installation)
-* [How to execute](#how-to-execute)  
-* [Tutorial](#tutorial)  
-* [How to contribute](#how-to-contribute)  
+  * [Quick Start](#quick-start)  
+* [Contributing](#contributing)  
 
 
 ## Getting started
@@ -25,51 +23,69 @@ Let the script running in the background and focus on your exams, distraction fr
 
 ### Requirements:
     - Google Chrome
+    - Chromedriver
     - Python 
   
 ### Installation:
 
-  1. Update chrome (IMPORTANT): https://www.google.com/chrome/ 
-  2. Check your chrome version 
-   - Ubuntu: `google-chrome --version`
-   - Windows: chrome://settings/help
-  3. Download Chromedriver for your chrome version & OS: http://chromedriver.chromium.org/downloads
-  4. Add Chromedriver to the same directory with the script
+  1. Update Google Chrome to the latest version (IMPORTANT): https://www.google.com/chrome/  
+    - On Ubuntu, update using apt: `sudo apt-get -y update && sudo apt-get -y upgrade`
+  2. Check your Chrome version  
+    - On Windows, go to this URL: chrome://settings/help  
+    - On Ubuntu, use this command: `google-chrome --version`
+  3. Download Chromedriver for your current Chrome version & operating system: http://chromedriver.chromium.org/downloads
+  4. Add Chromedriver to the script's directory
   5. Clone this repo: `git clone https://github.com/DimitrisPr/evdoxos-auto-backup.git; cd evdoxos-auto-backup`
-  6. Install requirments `pip install -r requirements.txt`
+  6. Install missing Python libraries using requirments.txt   
+    - On Windows & Ubuntu 20.04 LTS (or later): `pip install -r requirements.txt`  
+    - On Ubuntu 18.04/19.10: `pip3 install -r reuquirements.txt`
   7. Open autosave.py and change the following variables
     
-      ```
+      ```python
       USERNAME = 'your_username_here'
       PASSWORD = 'your_password_here'
       PROJECT_UPLOAD_DIRECTORY_URL = 'the_project_upload_directory_url_here'
       ```
-  where PROJECT_UPLOAD_DIRECTORY_URL is the upload directory if your exam test file. 
+  *PROJECT_UPLOAD_DIRECTORY_URL* is the upload directory for your exam document. 
   
   8. Save and exit
-  9. Create a new doc, .docx or .odt file at the the project's directory. (The name doesn't matter, the extension does)
+  9. Create a new doc, .docx or .odt file at the project's directory. (While the name doesn't matter, the extension does)
   
-## How to execute
+You can find a written version of this guide [here](https://drive.google.com/file/d/1dI16ivvDLG3pEbSZy7r4BZR6JwnyVxGf/view?usp=sharing).
+  
+## Quick start
 
-Let the script running on the background. Everytime it detects a change it automatically uploads a new file on Evdoxos.
+Now that everything is successfully installed, we can begin with a quick guide on how to use this script.  
+Start the script and let it run in the background. Every time a change is detected, your files will be automatically uploaded to Evdoxos.
+
+### Windows
 ```bash
-$ python autosave.py
+python autosave.py
 ```
+
+### Ubuntu
+```bash
+python3 autosave.py &
+disown
+```
+If you are running Ubuntu 20.04 LTS or later, you can avoid using the `python3` command and use the `python` command directly.
+
 <hr/>
 ⭐ Star this repo? :)
 <hr/>
 
-## Tutorial
-[PDF Tutorial](https://drive.google.com/file/d/1dI16ivvDLG3pEbSZy7r4BZR6JwnyVxGf/view?usp=sharing)
+## Contributing
 
-## How to contribute
+Contributions are accepted and welcome!  
+How about we make a GUI using Python's TKinter?
 
-Let's make a GUI with python's TKinter? Contributions accepted. 
-**Find me at**: https://prasakis.com
-
-<hr/> 
+## Testing
 
 This project has been tested on:
-   - Windows (Latest chrome version as of 21-5-2020: 83.0.4103.61)
-   - Linux (Latest chrome version as of 21-5-2020: 83.0.4103.61)
+   - Windows (Latest Chrome version as of 21-5-2020: 83.0.4103.61)
+   - Linux (Latest Chrome version as of 21-5-2020: 83.0.4103.61)
 
+<hr/>
+
+### Where to find me
+* https://prasakis.com
