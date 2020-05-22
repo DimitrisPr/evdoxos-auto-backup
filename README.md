@@ -51,7 +51,9 @@ Let the script running in the background and focus on your exams, distraction fr
   8. Save and exit
   9. Create a new doc, .docx or .odt file at the project's directory. (While the name doesn't matter, the extension does)
   
-You can find a written version of this guide [here](https://drive.google.com/file/d/1dI16ivvDLG3pEbSZy7r4BZR6JwnyVxGf/view?usp=sharing).
+## Tutorial
+
+You can find a written tutorial [here](https://drive.google.com/file/d/1dI16ivvDLG3pEbSZy7r4BZR6JwnyVxGf/view?usp=sharing).
   
 ## Quick start
 
