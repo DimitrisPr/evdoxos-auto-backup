@@ -55,8 +55,9 @@ If you wish Chrome interactive experience, uncomment the line `options.add_argum
 
 ## Tutorial
 
-You can find a tutorial with screenshots [here](https://drive.google.com/file/d/1dI16ivvDLG3pEbSZy7r4BZR6JwnyVxGf/view?usp=sharing).
-  
+[Video Tutorial (Youtube)](https://youtu.be/lYl-qBQKj9w)
+[PDF Tutorial](https://drive.google.com/file/d/1dI16ivvDLG3pEbSZy7r4BZR6JwnyVxGf/view?usp=sharing).
+
 ## Quick start
 
 Now that everything is successfully installed, we can begin with a quick guide on how to use this script.  
