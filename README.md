@@ -21,6 +21,11 @@ Table of Contents
 Script that monitors Word files for changes, and automatically uploads them on Evdoxos (when you save them).
 Let the script running in the background and focus on your exams, distraction free.
 
+## Tutorial
+
+ * [Video Tutorial (Youtube)](https://youtu.be/O8b8YQZYnnU)
+ * [PDF Tutorial](https://drive.google.com/file/d/1dI16ivvDLG3pEbSZy7r4BZR6JwnyVxGf/view?usp=sharing).
+
 ### Requirements:
     - Google Chrome
     - Chromedriver
@@ -52,11 +57,6 @@ Let the script running in the background and focus on your exams, distraction fr
   9. Create a new doc, .docx or .odt file at the project's directory. (While the name doesn't matter, the extension does)
   
 If you wish Chrome interactive experience, uncomment the line `options.add_argument('--headless')`
-
-## Tutorial
-
- * [Video Tutorial (Youtube)](https://youtu.be/O8b8YQZYnnU)
- * [PDF Tutorial](https://drive.google.com/file/d/1dI16ivvDLG3pEbSZy7r4BZR6JwnyVxGf/view?usp=sharing).
 
 ## Quick start
 
