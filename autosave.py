@@ -1,3 +1,4 @@
+import re
 import time
 import os.path, time
 from selenium import webdriver
@@ -29,47 +30,47 @@ def login():
     
 def listen_for_changes():
 
-    print("\n")
-    print("**************************************************************************")
-    print("Listening for changes on doc,docx or odt files in the current directory...")
-    print("**************************************************************************")
-    print("\n")
+        print("\n")
+        print("**************************************************************************")
+        print("Listening for changes on doc,docx or odt files in the current directory...")
+        print("**************************************************************************")
+        print("\n")
 
-    event_handler = MyHandler()
-    observer = Observer()
-    observer.schedule(event_handler, path='.', recursive=False)
-    observer.start()
+        event_handler = MyHandler()
+        observer = Observer()
+        observer.schedule(event_handler, path='.', recursive=False)
+        observer.start()
 
-    try:
+        try:
         while True:
             time.sleep(1)
-    except KeyboardInterrupt:
+        except KeyboardInterrupt:
         observer.stop()
 
 def upload_file(modified_file_path):
 
-    upload_button = driver.find_element_by_name('userfile')
-    upload_button.send_keys(os.getcwd()+modified_file_path)
-    
-    submit_button = driver.find_element_by_name('work_submit')
-    submit_button.click()
+        upload_button = driver.find_element_by_name('userfile')
+        upload_button.send_keys(os.getcwd()+modified_file_path)
 
-    print("File was uploaded succesfully on Evdoxos...\n")
+        submit_button = driver.find_element_by_name('work_submit')
+        submit_button.click()
+
+        print("File was uploaded succesfully on Evdoxos...\n")
 
 class MyHandler(FileSystemEventHandler):
 
-    def on_modified(self, event):  
+        def on_modified(self, event):  
 
         extensions = ('.doc', '.docx', '.odt')
         modified_file_path = str(event.src_path)
 
         # if file extension is any of $extensions
-        if modified_file_path.endswith(extensions):
+        if modified_file_path.endswith(extensions) and not modified_file_path.startswith(".\~$"):
             print("Change detected!")
             print("Uploading file...")
             driver.get(PROJECT_UPLOAD_DIRECTORY_URL)
             upload_file(modified_file_path)
         
 if __name__ == "__main__":
-    login()
-    listen_for_changes()
+        login()
+        listen_for_changes()
