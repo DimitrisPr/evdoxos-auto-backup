@@ -34,8 +34,8 @@ Let the script running in the background and focus on your exams, distraction fr
     - On Windows, go to this URL: chrome://settings/help  
     - On Ubuntu, use this command: `google-chrome --version`
   3. Download Chromedriver for your current Chrome version & operating system: http://chromedriver.chromium.org/downloads
-  4. Add Chromedriver to the script's directory
-  5. Clone this repo: `git clone https://github.com/DimitrisPr/evdoxos-auto-backup.git; cd evdoxos-auto-backup`
+  4. Clone this repo: `git clone https://github.com/DimitrisPr/evdoxos-auto-backup.git; cd evdoxos-auto-backup`
+  5. Add Chromedriver to the script's directory
   6. Install missing Python libraries using requirments.txt   
     - On Windows & Ubuntu 20.04 LTS (or later): `pip install -r requirements.txt`  
     - On Ubuntu 18.04/19.10: `pip3 install -r requirements.txt`
