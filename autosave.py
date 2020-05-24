@@ -41,11 +41,11 @@ def listen_for_changes():
         observer.schedule(event_handler, path='.', recursive=False)
         observer.start()
 
-        try:
-        while True:
-            time.sleep(1)
-        except KeyboardInterrupt:
-        observer.stop()
+         try:
+                while True:
+                    time.sleep(1)
+            except KeyboardInterrupt:
+                observer.stop()
 
 def upload_file(modified_file_path):
 
