@@ -66,8 +66,7 @@ class MyHandler(FileSystemEventHandler):
 
         # if file extension is any of $extensions
         if modified_file_path.endswith(extensions) and not modified_file_path.startswith(".\~$"):
-            print(modified_file_path)
-            print("Change detected!")
+            print("Change detected at file:{}".format(modified_file_path))
             print("Uploading file...")
             driver.get(PROJECT_UPLOAD_DIRECTORY_URL)
             upload_file(modified_file_path)
