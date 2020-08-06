@@ -4,6 +4,7 @@ from watchdog.events import FileSystemEventHandler
 import os
 import time
 import logging
+import re
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
