@@ -117,7 +117,7 @@ class MyHandler(FileSystemEventHandler):
                 loggerwatchdog.info("Upload URL for the Project: " +ProjectURL)
                 loggerwatchdog.info("******************** URL Section **********************************")
 
-                if ModifiedFileType in extensions:
+                if ((ModifiedFileType in extensions) and not (modified_file_path.startswith(".\~$"))):
                     loggerwatchdog.info("Change detected at file:{}".format(modified_file_path))
                     loggerwatchdog.info("Uploading file...")
                     driver.get(ProjectURL)
